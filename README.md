@@ -229,12 +229,11 @@ const iosAppPath = projectPath.join(process.cwd(),"app/ios/MyRNDemoApp.app");
 * Set up the capabilities for Android(Emulator sample)
 ```bash
 capabilities: [{
-        platformName: 'Android', 
-        "appium:device-name": 'Pixel 4 API 30(R)',
-        "appium:platformVersion": "11.0",
-        "appium:automationName": "UIAutomator2",
-        "appium:app": androidAppPath,
-        // "appium:appWaitActivity": "com.swaglabsmobileapp.MainActivity"(For OLD swaglabs app)
+       platformName: "android",
+      "appium:deviceName": "TestPhone",
+      "appium:automationName": "UIAutomator2",
+      "appium:app": path.join(process.cwd(), "app/android/listo_android.apk"),
+      "appium:autoGrantPermissions": true,
     }]
 ```
 * Set up the capabilities for Android(Emulator sample)
