@@ -1,8 +1,8 @@
 
-# Appium Demo Framework - Android & IOS Example
+# Appium Demo Framework - Android Example
 
 This project has been created to demonstrate how a QA Engineer can perform Mobile Testing using Appium + WebDriver.IO
-More commands and insights about the integration at [WebDriverIO Appium docs](https://webdriver.io/docs/api/appium/)
+Using Page Object Model structure
 
 - - - 
 ## General System Requirements
