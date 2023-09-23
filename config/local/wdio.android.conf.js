@@ -19,10 +19,11 @@ config.specs = ["test/specs/addNote.spec.js"];
 config.capabilities = [
   {
     platformName: "android",
-    "appium:deviceName": "TestPhone",
+    "appium:platformVersion": "11",
+    "appium:deviceName": "S22",
     "appium:automationName": "UIAutomator2",
     "appium:app": path.join(process.cwd(), "app/android/colorpad.apk"),
-    // "appium:autoGrantPermissions": true,
+    "appium:autoGrantPermissions": true,
     "appium:noReset": true,
   },
 ];

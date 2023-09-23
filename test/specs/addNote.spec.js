@@ -1,9 +1,9 @@
 const editNote = require("../screenObject/android/editNote.screen");
 
 describe("Add Notes", () => {
-  // it("skip tutorial", async () => {
-  //   // await editNote.skipTutorial();
-  // });
+  it("skip tutorial", async () => {
+    await editNote.skipTutorial();
+  });
 
   it("add a note save and verify ", async () => {
     await editNote.addAndSaveNote("Nicasource Events", "Weekly Talks \n NsTalks \n NsMeetups");
